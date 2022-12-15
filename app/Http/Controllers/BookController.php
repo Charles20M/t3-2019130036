@@ -29,6 +29,7 @@ class BookController extends Controller
             'halaman' => 'required',
             'kategori' => 'required',
             'penerbit' => 'required',
+            'author_id' => 'required',
         ]);
 
         Book::create($request->all());
@@ -55,6 +56,7 @@ class BookController extends Controller
             'halaman' => 'required',
             'kategori' => 'required',
             'penerbit' => 'required',
+            'author_id' => 'required',
         ]);
 
         $book->update($request->all());

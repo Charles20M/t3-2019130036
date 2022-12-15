@@ -10,7 +10,7 @@ class Book extends Model
     use HasFactory;
     // protected $guarded = [];
     protected $fillable = [
-        'id', 'judul', 'halaman', 'kategori', 'penerbit'
+        'id', 'judul', 'halaman', 'kategori', 'penerbit', 'author_id'
     ];
 
 
