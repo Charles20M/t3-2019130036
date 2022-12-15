@@ -13,7 +13,8 @@ class Book extends Model
         'id', 'judul', 'halaman', 'kategori', 'penerbit'
     ];
 
+
     public function author(){
-        return $this->hasMany(Author::class);
+        return $this->BelongsTo(Author::class,'author_id');
     }
 }
