@@ -3,6 +3,7 @@
 @section('content')
 <div class="row">
     <div class="col-lg-12 margin-tb">
+        <br>
         <div class="pull-left">
             <h2 align="center"><strong>Add New Author</strong></h2>
         </div>
